@@ -1,0 +1,26 @@
+body {
+  background-image: url(bilder/pexels-ithalu-dominguez-907485.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#source {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  height: 11vh;
+  width: 45vh;
+  /* border: 10px red;
+   border-style: solid;*/
+  position: absolute;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=output.css.map */

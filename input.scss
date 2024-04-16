@@ -1,0 +1,40 @@
+$background: url(bilder/pexels-ithalu-dominguez-907485.jpg);
+
+$flexbox: flex;
+
+body{
+    background-image: $background;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#source {
+    display: $flexbox;
+    justify-content: end;
+    align-items: end;
+    height: 11vh;
+    width: 45vh;
+   /* border: 10px red;
+    border-style: solid;*/
+    position: absolute;
+    bottom: 0;
+    
+
+}
+
+#search-input{
+    
+}
+
+.section-daily{
+    display: $flexbox;
+    align-content: center;
+}
+
